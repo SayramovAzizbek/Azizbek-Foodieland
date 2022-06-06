@@ -1251,7 +1251,7 @@ body {
     width: 520px;
 }
 
-.main-over-footer-part-input-box a{
+.main-over-footer-part-input-box button{
     background: #000;
     text-decoration: none;
     color: #fff;
@@ -1259,11 +1259,12 @@ body {
     padding: 20px;
     position: absolute;
     right: 400px;
-    top: 12px;
+    top: 10px;
     font-weight: 600;
+    transition: .5s;
 }
 
-.main-over-footer-part-input-box a:hover {
+.main-over-footer-part-input-box button:hover {
     background: #3897F0;
     color: #000;
     font-weight: 600;
@@ -1314,10 +1315,10 @@ body {
         padding: 20px;
     }
     
-    .main-over-footer-part-input-box a{
+    .main-over-footer-part-input-box button{
         padding: 15px 20px;
         right: 15px;
-        top: 7px;
+        top: 5px;
     }
 
     .main-over-footer-part-photo img:nth-child(1), .main-over-footer-part-photo img:nth-child(2) ,.main-over-footer-part-photo img:nth-child(3) {
@@ -1343,10 +1344,10 @@ body {
         padding: 22px;
     }
     
-    .main-over-footer-part-input-box a{
+    .main-over-footer-part-input-box button{
         padding: 15px;
         right: 95px;
-        top: 9px;
+        top: 7px;
     }
 
     .main-over-footer-part-photo img:nth-child(1), .main-over-footer-part-photo img:nth-child(2), .main-over-footer-part-photo img:nth-child(3) {
@@ -2003,12 +2004,12 @@ body {
     padding: 20px 0 40px 0;
 }
 
-.blog-hero-unput-box {
+.blog-hero-input-box {
     position: relative;
     display: inline-block;
 }
 
-.blog-hero-unput-box input {
+.blog-hero-input-box input {
     width: 700px;
     padding: 25px 20px;;
     background: #FFFFFF;
@@ -2017,7 +2018,7 @@ body {
     outline: none;
 }
 
-.blog-hero-unput-box a {
+.blog-hero-input-box button {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
@@ -2026,7 +2027,7 @@ body {
     padding: 20px 50px;
     border-radius: 24px;
     position: absolute;
-    top: 7.5px;
+    top: 5.5px;
     right: 7px;
 }
 
@@ -2043,16 +2044,16 @@ body {
         padding: 15px 0 20px 0;
     }
     
-    .blog-hero-unput-box {
+    .blog-hero-input-box {
         display: inline-block;
     }
     
-    .blog-hero-unput-box input {
+    .blog-hero-input-box input {
         width: 370px;
         padding: 15px 10px;
     }
     
-    .blog-hero-unput-box a {
+    .blog-hero-input-box button {
         padding: 10px 20px;
     }
 }
@@ -2070,8 +2071,8 @@ body {
         padding: 20px 0 30px 0;
     }
     
-    .blog-hero-unput-box a {
-        top: 6.5px;
+    .blog-hero-input-box button {
+        top: 5px;
     }
 }
 /* End of Blog Hero Section */
@@ -2437,22 +2438,24 @@ body {
 }
 
 .contact-hero-main-right-top-input-box input, 
-.contact-hero-main-right-past input {
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.6);
-    opacity: 0.8;
-    padding: 18px 0px 18px 20px;
-    background: #FFFFFF;
+.contact-hero-main-right-past textarea {
+    width: 380px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 16px;
-    width: 380px;
+    opacity: 0.8;
+    background: #FFFFFF;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
     margin: 10px 20px 0 30px;
+    padding: 18px 0px 18px 20px;
     outline: none;
 } 
 
-.contact-hero-main-right-past input {
+.contact-hero-main-right-past textarea{
     width: 810px;
-    padding: 18px 0 150px 20px;
+    height: 200px;
+    resize: none;
+    padding: 20px;
 }
 
 .contact-submit-box {
@@ -2503,12 +2506,12 @@ body {
     }
     
     .contact-hero-main-right-top-input-box input, 
-    .contact-hero-main-right-past input {
+    .contact-hero-main-right-past textarea{
         width: 340px;
         margin: 0 ;
     } 
     
-    .contact-hero-main-right-past input {
+    .contact-hero-main-right-past textarea {
         width: 100%;
     }
 
@@ -2544,12 +2547,12 @@ body {
     }
     
     .contact-hero-main-right-top-input-box input, 
-    .contact-hero-main-right-past input {
+    .contact-hero-main-right-past textarea {
         width: 320px;
         margin: 10px 20px 0 0px;
     } 
     
-    .contact-hero-main-right-past input {
+    .contact-hero-main-right-past textarea{
         width: 660px;
     }
     
